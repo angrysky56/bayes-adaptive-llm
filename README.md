@@ -137,7 +137,9 @@ This project builds upon several key research works:
 1. Mamba: [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)
 2. MambaFormer: [Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks](https://arxiv.org/abs/2402.04248)
 3. SVF: [Transformer²: Self-adaptive LLMs](https://arxiv.org/abs/2501.06252)
-4. [SakanaAI/self-adaptive-llms](https://github.com/SakanaAI/self-adaptive-llms)
+- [SakanaAI/self-adaptive-llms](https://github.com/SakanaAI/self-adaptive-llms)
+4. [Bayesian Teaching Enables Probabilistic Reasoning in
+Large Language Models](https://arxiv.org/abs/2503.17523)
 
 ## License
 
