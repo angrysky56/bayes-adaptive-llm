@@ -1,6 +1,8 @@
 # Bayesian Self-Adaptive LLM
 
-A research prototype exploring Bayesian adaptation in large language models using MambaFormer and Singular Value Fine-tuning (SVF).
+A research mock prototype exploring Bayesian adaptation in large language models using MambaFormer and Singular Value Fine-tuning (SVF).
+
+See [Development](https://github.com/angrysky56/bayes-adaptive-llm/blob/main/to_develop.md) for steps to create a actual prototype.
 
 ## Overview
 
