@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# PyTorch
+*.pt
+*.pth
+*.th
+*.ckpt
+*.bin
+*.model
+*.safetensors
+
+# Data files
+*.csv
+*.pkl
+*.h5
+*.json
+*.jsonl
+*.npz
+*.npy
+*.dat
+
+# Logs
+logs/
+*.log
+runs/
+wandb/
+tensorboard/
+
+# Project specific
+data/raw/
+data/processed/*.bin
+checkpoints/
+experts/vectors/**/*.pt
+experts/vectors/**/*.bin
+outputs/
+results/
+
+# Keep expert vector directories but ignore large binary files
+!data/processed/.gitkeep
+!experts/vectors/**/.gitkeep
+!experts/vectors/**/metadata.json
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
